@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #424141;
+    color: white;
+    padding: 12px;
+}
+.logo{
+    height: 29.6px;
+    width: 100px;
+    padding: 5px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    color: white;
+    padding: 12px;
+}
+li{
+    margin-right: 17px;
+    font-size: 18px;
+}
+.benner{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    /* margin-top: 40px; */
+    align-items: center;
+    height: 100vh;
+    background-image: url(./images/background.png),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-blend-mode: overlay; */
+}
+.benner-heading{
+    font-size: 54px;
+    font-weight: bold;
+}
+.benner-discription{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.explore-btn{
+    margin-top: 20px;
+    padding: 13px 20px;
+    outline: none;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
+.benner-img{
+    width: 300px;
+}
+.about-heading{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 54px;
+    font-weight: bold;
+}
+.about-container{
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.about-title{
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+.about-discription{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.services{
+    display: block;
+    height: 500px;
+}
+.service{
+    width: 200px;
+    height: 280px;
+    /* border: 1px solid gray; */
+    padding: 15px;
+    text-align: center;
+    box-shadow: 4px 2px 105px gray;
+    border-radius: 10px;
+}
+.icons{
+    height: 70px;
+}
+.service-heading{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.service-title{
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-weight: bold;
+}
+.service-discription{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.details-btn{
+    margin-top: 10px;
+    padding: 5px 20px;
+    outline: none;
+    background-color: rgb(33, 32, 32);
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
