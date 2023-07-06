@@ -126,3 +126,33 @@ li{
     border: none;
     color: white;
 }
+footer{
+    background-color: black;
+}
+.footer-container{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 80px;
+}
+.footer-img{
+    width: 200px;
+}
+.footer-discription,.footer-title,hr{
+    color: white;
+}
+.footer-itm{
+    display: block;
+}
+hr{
+    width: 80%;
+    margin-left: 9%;
+    height: 0.0001px;
+}
+.Copyright{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    position: relative;
+    bottom: 20px;
+}
